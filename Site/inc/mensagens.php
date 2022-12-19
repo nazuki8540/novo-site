@@ -1,3 +1,10 @@
+<div
+                class="bs-toast toast toast-placement-ex m-2"
+                role="alert"
+                aria-live="assertive"
+                aria-atomic="true"
+                data-delay="2000"
+              >
 <?php 
 
 if(!empty($_GET['erro'])){
@@ -127,3 +134,4 @@ if(!empty($_GET['erro'])){
 
 
 ?>
+</div>

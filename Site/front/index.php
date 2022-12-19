@@ -97,78 +97,7 @@ require_once('../inc/mensagens.php');
                     </div>
                   </div>
                 </div>
-                
-                <div class="col-12 col-md-8 col-lg-4 order-3 order-md-2">
-                  <div class="row">
-                    <div class="col-6 mb-4">
-                      <div class="card">
-                        <div class="card-body">
-                          <div class="card-title d-flex align-items-start justify-content-between">
-                            <div class="avatar flex-shrink-0">
-                              <img src="../assets/img/icons/unicons/paypal.png" alt="Credit Card" class="rounded">
-                            </div>
-                            <div class="dropdown">
-                              <button class="btn p-0" type="button" id="cardOpt4" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="bx bx-dots-vertical-rounded"></i>
-                              </button>
-                              <div class="dropdown-menu dropdown-menu-end" aria-labelledby="cardOpt4">
-                                <a class="dropdown-item" href="javascript:void(0);">View More</a>
-                                <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                              </div>
-                            </div>
-                          </div>
-                          <span class="d-block mb-1">Payments</span>
-                          <h3 class="card-title text-nowrap mb-2">$2,456</h3>
-                          <small class="text-danger fw-semibold"><i class="bx bx-down-arrow-alt"></i> -14.82%</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-6 mb-4">
-                      <div class="card">
-                        <div class="card-body">
-                          <div class="card-title d-flex align-items-start justify-content-between">
-                            <div class="avatar flex-shrink-0">
-                              <img src="../assets/img/icons/unicons/cc-primary.png" alt="Credit Card" class="rounded">
-                            </div>
-                            <div class="dropdown">
-                              <button class="btn p-0" type="button" id="cardOpt1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="bx bx-dots-vertical-rounded"></i>
-                              </button>
-                              <div class="dropdown-menu" aria-labelledby="cardOpt1">
-                                <a class="dropdown-item" href="javascript:void(0);">View More</a>
-                                <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                              </div>
-                            </div>
-                          </div>
-                          <span class="fw-semibold d-block mb-1">Transactions</span>
-                          <h3 class="card-title mb-2">$14,857</h3>
-                          <small class="text-success fw-semibold"><i class="bx bx-up-arrow-alt"></i> +28.14%</small>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- </div>
-    <div class="row"> -->
-                    <div class="col-12 mb-4">
-                      <div class="card">
-                        <div class="card-body">
-                          <div class="d-flex justify-content-between flex-sm-row flex-column gap-3" style="position: relative;">
-                            <div class="d-flex flex-sm-column flex-row align-items-start justify-content-between">
-                              <div class="card-title">
-                                <h5 class="text-nowrap mb-2">Profile Report</h5>
-                                <span class="badge bg-label-warning rounded-pill">Year 2021</span>
-                              </div>
-                              <div class="mt-sm-auto">
-                                <small class="text-success text-nowrap fw-semibold"><i class="bx bx-chevron-up"></i> 68.2%</small>
-                                <h3 class="mb-0">$84,686k</h3>
-                              </div>
-                            </div>
-                            <div id="profileReportChart" style="min-height: 80px;"><div id="apexchartsplpn6613" class="apexcharts-canvas apexchartsplpn6613 apexcharts-theme-light" style="width: 144px; height: 80px;"><svg id="SvgjsSvg1704" width="144" height="80" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" class="apexcharts-svg" xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;"><g id="SvgjsG1706" class="apexcharts-inner apexcharts-graphical" transform="translate(0, 0)"><defs id="SvgjsDefs1705"><clipPath id="gridRectMaskplpn6613"><rect id="SvgjsRect1711" width="145" height="85" x="-4.5" y="-2.5" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="forecastMaskplpn6613"></clipPath><clipPath id="nonForecastMaskplpn6613"></clipPath><clipPath id="gridRectMarkerMaskplpn6613"><rect id="SvgjsRect1712" width="140" height="84" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><filter id="SvgjsFilter1718" filterUnits="userSpaceOnUse" width="200%" height="200%" x="-50%" y="-50%"><feFlood id="SvgjsFeFlood1719" flood-color="#ffab00" flood-opacity="0.15" result="SvgjsFeFlood1719Out" in="SourceGraphic"></feFlood><feComposite id="SvgjsFeComposite1720" in="SvgjsFeFlood1719Out" in2="SourceAlpha" operator="in" result="SvgjsFeComposite1720Out"></feComposite><feOffset id="SvgjsFeOffset1721" dx="5" dy="10" result="SvgjsFeOffset1721Out" in="SvgjsFeComposite1720Out"></feOffset><feGaussianBlur id="SvgjsFeGaussianBlur1722" stdDeviation="3 " result="SvgjsFeGaussianBlur1722Out" in="SvgjsFeOffset1721Out"></feGaussianBlur><feMerge id="SvgjsFeMerge1723" result="SvgjsFeMerge1723Out" in="SourceGraphic"><feMergeNode id="SvgjsFeMergeNode1724" in="SvgjsFeGaussianBlur1722Out"></feMergeNode><feMergeNode id="SvgjsFeMergeNode1725" in="[object Arguments]"></feMergeNode></feMerge><feBlend id="SvgjsFeBlend1726" in="SourceGraphic" in2="SvgjsFeMerge1723Out" mode="normal" result="SvgjsFeBlend1726Out"></feBlend></filter></defs><line id="SvgjsLine1710" x1="81.1" y1="0" x2="81.1" y2="80" stroke="#b6b6b6" stroke-dasharray="3" stroke-linecap="butt" class="apexcharts-xcrosshairs" x="81.1" y="0" width="1" height="80" fill="#b1b9c4" filter="none" fill-opacity="0.9" stroke-width="1"></line><g id="SvgjsG1727" class="apexcharts-xaxis" transform="translate(0, 0)"><g id="SvgjsG1728" class="apexcharts-xaxis-texts-g" transform="translate(0, -4)"></g></g><g id="SvgjsG1736" class="apexcharts-grid"><g id="SvgjsG1737" class="apexcharts-gridlines-horizontal" style="display: none;"><line id="SvgjsLine1739" x1="0" y1="0" x2="136" y2="0" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1740" x1="0" y1="20" x2="136" y2="20" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1741" x1="0" y1="40" x2="136" y2="40" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1742" x1="0" y1="60" x2="136" y2="60" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line><line id="SvgjsLine1743" x1="0" y1="80" x2="136" y2="80" stroke="#e0e0e0" stroke-dasharray="0" stroke-linecap="butt" class="apexcharts-gridline"></line></g><g id="SvgjsG1738" class="apexcharts-gridlines-vertical" style="display: none;"></g><line id="SvgjsLine1745" x1="0" y1="80" x2="136" y2="80" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line><line id="SvgjsLine1744" x1="0" y1="1" x2="0" y2="80" stroke="transparent" stroke-dasharray="0" stroke-linecap="butt"></line></g><g id="SvgjsG1713" class="apexcharts-line-series apexcharts-plot-series"><g id="SvgjsG1714" class="apexcharts-series" seriesName="seriesx1" data:longestSeries="true" rel="1" data:realIndex="0"><path id="SvgjsPath1717" d="M 0 76C 9.52 76 17.68 12 27.2 12C 36.72 12 44.879999999999995 62 54.4 62C 63.919999999999995 62 72.08 22 81.6 22C 91.11999999999999 22 99.28 38 108.8 38C 118.32 38 126.48 6 136 6" fill="none" fill-opacity="1" stroke="rgba(255,171,0,0.85)" stroke-opacity="1" stroke-linecap="butt" stroke-width="5" stroke-dasharray="0" class="apexcharts-line" index="0" clip-path="url(#gridRectMaskplpn6613)" filter="url(#SvgjsFilter1718)" pathTo="M 0 76C 9.52 76 17.68 12 27.2 12C 36.72 12 44.879999999999995 62 54.4 62C 63.919999999999995 62 72.08 22 81.6 22C 91.11999999999999 22 99.28 38 108.8 38C 118.32 38 126.48 6 136 6" pathFrom="M -1 120L -1 120L 27.2 120L 54.4 120L 81.6 120L 108.8 120L 136 120"></path><g id="SvgjsG1715" class="apexcharts-series-markers-wrap" data:realIndex="0"><g class="apexcharts-series-markers"><circle id="SvgjsCircle1751" r="0" cx="81.6" cy="22" class="apexcharts-marker w62qg29gt no-pointer-events" stroke="#ffffff" fill="#ffab00" fill-opacity="1" stroke-width="2" stroke-opacity="0.9" default-marker-size="0"></circle></g></g></g><g id="SvgjsG1716" class="apexcharts-datalabels" data:realIndex="0"></g></g><line id="SvgjsLine1746" x1="0" y1="0" x2="136" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" stroke-linecap="butt" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine1747" x1="0" y1="0" x2="136" y2="0" stroke-dasharray="0" stroke-width="0" stroke-linecap="butt" class="apexcharts-ycrosshairs-hidden"></line><g id="SvgjsG1748" class="apexcharts-yaxis-annotations"></g><g id="SvgjsG1749" class="apexcharts-xaxis-annotations"></g><g id="SvgjsG1750" class="apexcharts-point-annotations"></g></g><rect id="SvgjsRect1709" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe"></rect><g id="SvgjsG1735" class="apexcharts-yaxis" rel="0" transform="translate(-18, 0)"></g><g id="SvgjsG1707" class="apexcharts-annotations"></g></svg><div class="apexcharts-legend" style="max-height: 40px;"></div><div class="apexcharts-tooltip apexcharts-theme-light" style="left: -20px; top: 25px;"><div class="apexcharts-tooltip-title" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;">4</div><div class="apexcharts-tooltip-series-group apexcharts-active" style="order: 1; display: flex;"><span class="apexcharts-tooltip-marker" style="background-color: rgb(255, 171, 0);"></span><div class="apexcharts-tooltip-text" style="font-family: Helvetica, Arial, sans-serif; font-size: 12px;"><div class="apexcharts-tooltip-y-group"><span class="apexcharts-tooltip-text-y-label">series-1: </span><span class="apexcharts-tooltip-text-y-value">245</span></div><div class="apexcharts-tooltip-goals-group"><span class="apexcharts-tooltip-text-goals-label"></span><span class="apexcharts-tooltip-text-goals-value"></span></div><div class="apexcharts-tooltip-z-group"><span class="apexcharts-tooltip-text-z-label"></span><span class="apexcharts-tooltip-text-z-value"></span></div></div></div></div><div class="apexcharts-yaxistooltip apexcharts-yaxistooltip-0 apexcharts-yaxistooltip-left apexcharts-theme-light"><div class="apexcharts-yaxistooltip-text"></div></div></div></div>
-                          <div class="resize-triggers"><div class="expand-trigger"><div style="width: 283px; height: 117px;"></div></div><div class="contract-trigger"></div></div></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <button id="showToastPlacement" onclick="botao()" class="btn btn-primary d-block">Show Toast</button>
               </div>
               <div class="row">
                 <!-- Order Statistics -->
@@ -318,15 +247,15 @@ require_once('../inc/mensagens.php');
                 <div class="col-md-6 col-lg-4 order-2 mb-4">
                   <div class="card h-100">
                     <div class="card-header d-flex align-items-center justify-content-between">
-                      <h5 class="card-title m-0 me-2">Transactions</h5>
+                      <h5 class="card-title m-0 me-2">Transações</h5>
                       <div class="dropdown">
                         <button class="btn p-0" type="button" id="transactionID" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <i class="bx bx-dots-vertical-rounded"></i>
                         </button>
                         <div class="dropdown-menu dropdown-menu-end" aria-labelledby="transactionID">
-                          <a class="dropdown-item" href="javascript:void(0);">Last 28 Days</a>
-                          <a class="dropdown-item" href="javascript:void(0);">Last Month</a>
-                          <a class="dropdown-item" href="javascript:void(0);">Last Year</a>
+                          <a class="dropdown-item" href="javascript:void(0);">Ultimos 15 dias</a>
+                          <a class="dropdown-item" href="javascript:void(0);">Ultimo mês</a>
+                          <a class="dropdown-item" href="javascript:void(0);">ultimo 3 meses</a>
                         </div>
                       </div>
                     </div>
@@ -383,8 +312,8 @@ require_once('../inc/mensagens.php');
                           </div>
                           <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                             <div class="me-2">
-                              <small class="text-muted d-block mb-1">Credit Card</small>
-                              <h6 class="mb-0">Ordered Food</h6>
+                              <small class="text-muted d-block mb-1">Cartão de credito</small>
+                              <h6 class="mb-0">Master,Visa</h6>
                             </div>
                             <div class="user-progress d-flex align-items-center gap-1">
                               <h6 class="mb-0">-838.71</h6>
@@ -464,6 +393,7 @@ require_once('../inc/mensagens.php');
       <!-- Overlay -->
       <div class="layout-overlay layout-menu-toggle"></div>
     </div>
+    
 <?php 
 
 require_once('footer.php');
